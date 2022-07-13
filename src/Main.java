@@ -8,7 +8,7 @@ public class Main {
             System.out.println("Enter a number");
             int input_number = scanner.nextInt();
             Random random = new Random();
-//            generate random numbwe
+//            generate random number
             int random_number = random.nextInt(101);
             if (random_number < input_number){
                 System.out.println("random value is less than input number\n "+ "random value is "+random_number+"\n TRY AGAIN");
